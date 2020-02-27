@@ -1,0 +1,102 @@
+swagger: '2.0'
+info:
+  description: This is an API for a patient report reciever
+  version: 1.0.0
+  title: Hospital API
+
+paths:
+
+  /report/book_surgery:
+    get:
+      summary: Gets surgery data
+      operationId: app.get_surgery
+      description: Retrieves surgery data
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: startDate
+        description: pass an optional search string for looking up the event
+        required: true
+        type: string
+        format: date-time
+      - in: query
+        name: endDate
+        description: pass an optional search string for looking up the event
+        required: true
+        type: string
+        format: date-time
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/SurgeryInfo'
+        400:
+          description: bad input parameter
+
+  /report/xRay:
+    get:
+      summary: Gets x-ray data
+      operationId: app.get_xRay
+      description: Retrieves x-ray data
+      produces:
+      - application/json
+      parameters:
+      - in: query
+        name: startDate
+        description: pass an optional search string for looking up the event
+        required: true
+        type: string
+        format: date-time
+      - in: query
+        name: endDate
+        description: pass an optional search string for looking up the event
+        required: true
+        type: string
+        format: date-time
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/xRayReport'
+        400:
+          description: bad input parameter
+
+definitions:
+  xRayReport:
+    type: object
+    required:
+    - timestamp
+    - patient_id
+    - result
+    properties:
+      timestamp:
+        type: string
+        format: date-time
+      patient_id:
+        type: string
+        format: uuid
+      result:
+        type: string
+
+
+  SurgeryInfo:
+    type: object
+    required:
+    - bookingDate
+    - surgeryDate
+    - patient_id
+    properties:
+      bookingDate:
+        type: string
+        format: date-time
+      surgeryDate:
+          type: string
+          format: date-time
+      patient_id:
+        type: string
+        format: uuid
