@@ -801,3 +801,10 @@
 2020-02-27 09:19:29,239 - basicLogger - INFO - {'patient_id': 'ohyvucaamt', 'result': 'rrgymucqvglptaglbmyt', 'timestamp': '2022-01-09T18:51:16.953Z'}
 2020-02-27 09:19:34,272 - basicLogger - INFO - {'patient_id': 'pcrfpcbzzs', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
 2020-02-27 09:19:41,346 - basicLogger - INFO - {'patient_id': 'suqqqezbec', 'result': 'omhvpdjyjtslbcmgfucx', 'timestamp': '2022-01-09T18:51:16.953Z'}
+2020-02-27 09:19:46,370 - basicLogger - INFO - {'patient_id': 'ocqijizkly', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
+2020-02-27 09:19:53,433 - basicLogger - INFO - {'patient_id': 'wpscezlnfu', 'result': 'metdiqcghsvfyqedyhrv', 'timestamp': '2022-01-09T18:51:16.953Z'}
+2020-02-27 09:19:58,461 - basicLogger - INFO - {'patient_id': 'cuznariayt', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
+2020-02-27 09:20:05,517 - basicLogger - INFO - {'patient_id': 'wuevweyrng', 'result': 'cjmmfrxolzfjqzemgdhx', 'timestamp': '2022-01-09T18:51:16.953Z'}
+2020-02-27 09:20:10,550 - basicLogger - INFO - {'patient_id': 'mnufzkdfsd', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
+2020-02-27 09:20:17,594 - basicLogger - INFO - {'patient_id': 'rabdhjnuzd', 'result': 'aznqnpxracmolqurnxve', 'timestamp': '2022-01-09T18:51:16.953Z'}
+2020-02-27 09:20:22,626 - basicLogger - INFO - {'patient_id': 'vfnlbupbnz', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
