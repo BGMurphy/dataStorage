@@ -5,3 +5,4 @@ Flask_cors==3.0.8
 sqlalchemy==1.3.12
 Flask==1.1.1
 sqlalchemy==1.3.12
+PyMySql=0.9.3
