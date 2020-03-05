@@ -808,3 +808,5 @@
 2020-02-27 09:20:10,550 - basicLogger - INFO - {'patient_id': 'mnufzkdfsd', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
 2020-02-27 09:20:17,594 - basicLogger - INFO - {'patient_id': 'rabdhjnuzd', 'result': 'aznqnpxracmolqurnxve', 'timestamp': '2022-01-09T18:51:16.953Z'}
 2020-02-27 09:20:22,626 - basicLogger - INFO - {'patient_id': 'vfnlbupbnz', 'bookingDate': '2021-01-09T18:51:16.953Z', 'surgeryDate': '2021-28-09T18:51:16.953Z'}
+2020-03-05 10:15:12,687 - basicLogger - INFO - {'patient_id': '3fa85f64-5717-4562-b3fc-2c963f66afa6', 'bookingDate': '2020-01-09T18:51:16.953Z', 'surgeryDate': '2020-28-09T18:51:16.953Z'}
+2020-03-05 10:15:23,852 - basicLogger - INFO - {'patient_id': '3fa85f64-5717-4562-b3fc-2c963f66afa7', 'result': 'BBBBBB', 'timestamp': '2023-01-09T18:51:16.953Z'}
