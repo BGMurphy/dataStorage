@@ -31,7 +31,6 @@ with open('log_conf.yaml', 'r') as f:
 
 DB_ENGINE = 'mysql+pymysql://' + app_config['datastore']['user'] + ':' + app_config['datastore']['password'] + '@' + \
     app_config['datastore']['hostname'] + ':' + app_config['datastore']['port'] + '/' + app_config['datastore']['db']
-#DB_ENGINE = create_engine('sqlite:///readings.sqlite')
 DB_ENGINE = create_engine(DB_ENGINE)
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
